@@ -6,5 +6,4 @@ ProcessAlleeFLSA(allee_df) {
   flsa_fail_gids <- flsa_fail$GID
   flsa_fail_all_jobs <- filter(allee_df, GID %in% flsa_fail_gids)
   
-  
 }
